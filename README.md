@@ -11,3 +11,5 @@ The best free UGC sniper available!
 - Proxy already provided
 - Multi Cookie support (alt accounts)
 - Many more!
+
+JOIN MY SERVER: https://discord.gg/WcXdxHZ3EF

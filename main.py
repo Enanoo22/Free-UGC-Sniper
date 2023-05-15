@@ -1,4 +1,4 @@
-# made by cenvold#0026
+# made by Cenvold#0026
 try:
  try:
   import logging
@@ -50,7 +50,7 @@ try:
  
  ################################################################################################################################      
  class Sniper:
-    VERSION = "3.0.0"
+    VERSION = "4.0.0"
     
     class bucket:
         def __init__(self, max_tokens: int, refill_interval: float):
@@ -303,7 +303,7 @@ try:
         @bot.command(name="stats")
         async def stats(ctx):
             embed = discord.Embed(title="Sniper Stats", color=0x00ff00)
-            embed.set_author(name=f"Cenvold's UGC Sniper {self.version}")
+            embed.set_author(name=f"Free UGC Sniper {self.version}")
             embed.add_field(name="Loaded Items", value=f"{len(self.items)}", inline=True)
             embed.add_field(name="Total Buys", value=f"{self.buys}", inline=True)
             embed.add_field(name="Total Errors", value=f"{self.errors}", inline=True)
@@ -573,14 +573,14 @@ try:
                        self.buys += 1
                        if self.webhookEnabled:
                             embed_data = {
-                                "title": "Successfully Sniped Limited!",
+                                "title": "Sniped New Limited!",
                                 "url": f"https://www.roblox.com/catalog/{raw_id}",
                                 "color": 65280,
                                 "author": {
-                                    "name": "SNIPED FREE LIMITED"
+                                    "name": "Successfully sniped limited!"
                                 },
                                 "footer": {
-                                "text": "Cenvold's UGC Sniper"
+                                "text": "Cenvold's Free UGC Sniper"
                                 }
                             }
 
